@@ -455,3 +455,185 @@
 //============================================================================================================
 
 [Rarity] == "Unique" # [StashItem] == "true"
+
+//=======================================================================
+//	Flasks
+//=======================================================================
+//--------------------------------------------------
+//	Mana Flasks
+//--------------------------------------------------
+
+[Type] == "Greater Mana Flask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+
+//--------------------------------------------------
+//	Utility Flasks
+//--------------------------------------------------
+
+[Type] == "Quartz Flask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Quicksilver Flask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Ruby Flask" && [Rarity] == "Unique" # [local_unique_chaos_damage_does_not_bypass_energy_shield_during_flask_effect] == "1" && [ForceSellItem] == "true"
+[Type] == "Sulphur Flask" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+
+//=======================================================================
+//	Weapons
+//=======================================================================
+//--------------------------------------------------
+//	Bows
+//--------------------------------------------------
+
+[Type] == "Assassin Bow" && [Rarity] == "Unique" # [base_physical_damage_%_to_convert_to_chaos] == "25" && [ForceSellItem] == "true"
+[Type] == "Assassin Bow" && [Rarity] == "Unique" # [local_physical_damage_+%] <= "170" && [unique_chin_sol_close_range_bow_damage_+%_final] == "100" && [ForceSellItem] == "true"
+[Type] == "Bone Bow" && [Rarity] == "Unique" # [physical_damage_%_to_add_as_fire] == "20" && [ForceSellItem] == "true"
+[Type] == "Crude Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Death Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Decimation Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Harbinger Bow" && [Rarity] == "Unique" # [consecrate_ground_on_shatter_%_chance_for_3_seconds] == "100" && [ForceSellItem] == "true"
+[Type] == "Imperial Bow" && [Rarity] == "Unique" # [player_far_shot] == "1" && [local_attack_speed_+%] <= "19" && [ForceSellItem] == "true"
+[Type] == "Long Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Ranger Bow" && [Rarity] == "Unique" # [minion_damage_+%_per_10_dex] == "1" && [ForceSellItem] == "true"
+[Type] == "Recurve Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Royal Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Short Bow" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Spine Bow" && [Rarity] == "Unique" # [chaos_damage_can_shock] == "1" && [local_attack_speed_+%] <= "14" [ForceSellItem] == "true"
+[Type] == "Spine Bow" && [Rarity] == "Unique" # [chaos_damage_can_shock] == "1" && [local_maximum_added_lightning_damage] <= "315" [ForceSellItem] == "true"
+
+//--------------------------------------------------
+//	Claws
+//--------------------------------------------------
+
+[Type] == "Awl" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Fright Claw" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Gut Ripper" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Hellion's Paw" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Nailed Fist" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Terror Claw" && [Rarity] == "Unique" # [local_chance_to_bleed_on_hit_%] == "25" && [ForceSellItem] == "true"
+[Type] == "Timeworn Claw" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Thresher Claw" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Throat Stabber" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Vaal Claw" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+
+//--------------------------------------------------
+//	Daggers
+//--------------------------------------------------
+
+[Type] == "Ambusher" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Boot Blade" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Boot Knife" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Flaying Knife" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Imperial Skean" && [Rarity] == "Unique" # [chance_to_dodge_attacks_%_while_off_hand_is_empty] == "20" && [Elemental DPS] <= "400" && [ForceSellItem] == "true"
+[Type] == "Platinum Kris" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Royal Skean" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Skinning Knife" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Stiletto" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+
+//--------------------------------------------------
+//	One Hand Swords
+//--------------------------------------------------
+
+[Type] == "Corsair Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Dusk Blade" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Elder Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Elegant Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Gladius" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Legion Sword" && [Rarity] == "Unique" # [lightning_damage_+%_per_frenzy_charge] == "12" && [ForceSellItem] == "true"
+[Type] == "Rusted Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Sabre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Twilight Blade" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Vaal Blade" && [Rarity] == "Unique" # [local_minimum_added_chaos_damage] >= "1" && [ForceSellItem] == "true"
+[Type] == "War Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+
+//--------------------------------------------------
+//	Sceptres
+//--------------------------------------------------
+
+[Type] == "Bronze Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Carnal Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Crystal Sceptre" && [Rarity] == "Unique" # [local_socketed_fire_gem_level_+] == "2" && [ForceSellItem] == "true"
+[Type] == "Crystal Sceptre" && [Rarity] == "Unique" # [local_socketed_gem_level_+] == "1" && [ForceSellItem] == "true"
+[Type] == "Iron Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Opal Sceptre" && [Rarity] == "Unique" # [local_display_grants_skill_scorching_ray_level] == "25" && [ForceSellItem] == "true"
+// [Type] == "Platinum Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Shadow Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Void Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+
+//--------------------------------------------------
+//	Staves
+//--------------------------------------------------
+
+[Type] == "Coiled Staff" && [Rarity] == "Unique" # [base_aura_area_of_effect_+%] == "18" && [ForceSellItem] == "true"
+[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [local_socketed_chaos_gem_level_+] == "2" && [ForceSellItem] == "true"
+[Type] == "Gnarled Branch" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Iron Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Lathi" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Long Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Military Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Primordial Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Royal Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Vile Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+
+//--------------------------------------------------
+//	Thrusting One Hand Swords
+//--------------------------------------------------
+
+[Type] == "Antique Rapier" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Basket Rapier" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Elegant Foil" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Estoc" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Jagged Foil" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Whalebone Rapier" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+
+//--------------------------------------------------
+//	Two Hand Axes
+//--------------------------------------------------
+
+[Type] == "Despot Axe" && [Rarity] == "Unique" # [elemental_damage_+%_if_used_a_warcry_recently] == "150" && [local_maximum_added_cold_damage] <= "490" && [ForceSellItem] == "true"
+[Type] == "Despot Axe" && [Rarity] == "Unique" # [elemental_damage_+%_if_used_a_warcry_recently] == "150" && [local_minimum_added_cold_damage] <= "340" && [ForceSellItem] == "true"
+[Type] == "Headsman Axe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Karui Chopper" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Poleaxe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Shadow Axe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Sundering Axe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Woodsplitter" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+
+//--------------------------------------------------
+//	Two Hand Maces
+//--------------------------------------------------
+
+[Type] == "Brass Maul" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Dread Maul" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Great Mallet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Jagged Maul" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Karui Maul" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Sledgehammer" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+
+//--------------------------------------------------
+//	Two Hand Swords
+//--------------------------------------------------
+
+[Type] == "Bastard Sword" && [Rarity] == "Unique" # [base_avoid_freeze_%] == "100" && [ForceSellItem] == "true"
+[Type] == "Etched Greatsword" && [Rarity] == "Unique" # [chaos_damage_+%_per_level] == "1" && [ForceSellItem] == "true"
+[Type] == "Ezomyte Blade" && [Rarity] == "Unique" # [cannot_leech_life_from_critical_strikes] == "1" && [ForceSellItem] == "true"
+[Type] == "Highland Blade" && [Rarity] == "Unique" # [base_movement_velocity_+%] == "10" && [local_attack_speed_+%] == "20" && [ForceSellItem] == "true"
+[Type] == "Infernal Sword" && [Rarity] == "Unique" # [culling_strike_on_burning_enemies] == "1" && [Elemental DPS] <= "820" && [ForceSellItem] == "true"
+[Type] == "Lion Sword" && [Rarity] == "Unique" # [local_display_socketed_melee_gems_have_area_radius_+%] == "15" && [ForceSellItem] == "true"
+[Type] == "Ornate Sword" && [Rarity] == "Unique" # [base_number_of_skeletons_allowed] == "1" && [ForceSellItem] == "true"
+[Type] == "Reaver Sword" && [Rarity] == "Unique" # [local_display_cast_level_x_manifest_rageblade] == "15" && [ForceSellItem] == "true"
+[Type] == "Reaver Sword" && [Rarity] == "Unique" # [local_display_socketed_gems_get_blood_magic_level] == "1" && [ForceSellItem] == "true"
+[Type] == "Tiger Sword" && [Rarity] == "Unique" # [add_frenzy_charge_on_critical_strike] == "1" && [local_physical_damage_+%] <= "250" && [ForceSellItem] == "true"
+[Type] == "Tiger Sword" && [Rarity] == "Unique" # [add_frenzy_charge_on_critical_strike] == "1" && [local_critical_strike_chance_+%] <= "70" && [ForceSellItem] == "true"
+
+//--------------------------------------------------
+//	Wands
+//--------------------------------------------------
+
+[Type] == "Carved Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Crystal Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Demon's Horn" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Driftwood Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Engraved Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Goat's Horn" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Imbued Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Quartz Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Sage Wand" && [Rarity] == "Unique" # [local_display_socketed_gems_have_number_of_additional_projectiles] == "1" && [ForceSellItem] == "true"
+[Type] == "Spiraled Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+// [Type] == "Tornado Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
