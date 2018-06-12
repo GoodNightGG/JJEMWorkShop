@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <S18051002>
+//	Serial Number <001>
 //============================================================================================================
 //
 //	Currency v3.2
@@ -350,7 +350,7 @@
 //--------------------------------------------------
 
 [Type] == "Crystal Belt" # [StashItem] == "true"
-[Type] == "Leather Belt" && [Rarity] == "Normal" # [StashItem] == "true"
+// [Type] == "Leather Belt" && [Rarity] == "Normal" # [StashItem] == "true"
 
 //--------------------------------------------------
 //	Jewels
@@ -372,9 +372,9 @@
 //	One Hand Maces
 //--------------------------------------------------
 
-[Type] == "Gavel" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Rock Breaker" && [Rarity] == "Normal" # [StashItem] == "true"
-[Type] == "Stone Hammer" && [Rarity] == "Normal" # [StashItem] == "true"
+// [Type] == "Gavel" && [Rarity] == "Normal" # [StashItem] == "true"
+// [Type] == "Rock Breaker" && [Rarity] == "Normal" # [StashItem] == "true"
+// [Type] == "Stone Hammer" && [Rarity] == "Normal" # [StashItem] == "true"
 
 //============================================================================================================
 //
