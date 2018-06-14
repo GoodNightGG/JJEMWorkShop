@@ -1,8 +1,8 @@
 //============================================================================================================
-//	Serial Number <001>
+//	Serial Number <002>
 //============================================================================================================
 //
-//	Currency v3.2
+//	Currency
 //
 //============================================================================================================
 //--------------------------------------------------
@@ -86,7 +86,7 @@
 
 //============================================================================================================
 //
-//	Divine Cards v3.2
+//	Divine Cards
 //
 //============================================================================================================
 
@@ -205,7 +205,7 @@
 
 //============================================================================================================
 //
-//	Maps v3.2
+//	Maps
 //
 //============================================================================================================
 //=======================================================================
@@ -235,22 +235,14 @@
 //	Tier 3
 //--------------------------------------------------
 
-[Type] == "Arcade Map" # [Rarity] != "Magic" && [StashItem] == "true"
-[Type] == "Burial Chambers Map" # [Rarity] != "Magic" && [StashItem] == "true"
-[Type] == "Cage Map" # [Rarity] != "Magic" && [StashItem] == "true"
-[Type] == "Cells Map" # [Rarity] != "Magic" && [StashItem] == "true"
-[Type] == "Excavation Map" # [Rarity] != "Magic" && [StashItem] == "true"
-[Type] == "Iceberg Map" # [Rarity] != "Magic" && [StashItem] == "true"
-[Type] == "Leyline Map" # [Rarity] != "Magic" && [StashItem] == "true"
-[Type] == "Peninsula Map" # [Rarity] != "Magic" && [StashItem] == "true"
-[Type] == "Port Map" # [Rarity] != "Magic" && [StashItem] == "true"
-[Type] == "Springs Map" # [Rarity] != "Magic" && [StashItem] == "true"
+[Type] == "Burial Chambers Map" # [StashItem] == "true"
+// [Type] == "Burial Chambers Map" # [Rarity] != "Magic" && [StashItem] == "true"
 
 //--------------------------------------------------
 //	Tier 4
 //--------------------------------------------------
 
-[Type] == "Volcano Map" # [StashItem] == "true"
+// [Type] == "Volcano Map" # [StashItem] == "true"
 
 //--------------------------------------------------
 //	Abandoned Maps
@@ -308,7 +300,7 @@
 
 //============================================================================================================
 //
-//	Skill Gems v3.2
+//	Skill Gems
 //
 //============================================================================================================
 //--------------------------------------------------
@@ -378,7 +370,7 @@
 
 //============================================================================================================
 //
-//	Magic Items v3.2
+//	Magic Items
 //
 //============================================================================================================
 //=======================================================================
@@ -423,7 +415,7 @@
 
 //============================================================================================================
 //
-//	Rare Items v3.2
+//	Rare Items
 //
 //============================================================================================================
 //=======================================================================
@@ -708,7 +700,7 @@
 //	Accessories
 //=======================================================================
 //--------------------------------------------------
-//	Amulets v3.2
+//	Amulets
 //--------------------------------------------------
 
 [Type] == "Agate Amulet" && [Rarity] == "Unique" # [chance_to_grant_nearby_enemies_unholy_might_on_kill_%] == "5" && [ForceSellItem] == "true"
@@ -730,7 +722,7 @@
 [Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [poison_damage_+%_per_frenzy_charge] == "10" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Belts v3.2
+//	Belts
 //--------------------------------------------------
 
 [Type] == "Chain Belt" && [Rarity] == "Unique" # [damage_+%] == "10" && [ForceSellItem] == "true"
@@ -749,7 +741,7 @@
 // [Type] == "Vanguard Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Jewels v3.2
+//	Jewels
 //--------------------------------------------------
 
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [chance_to_gain_unholy_might_on_melee_kill_%] >= "1" && [ForceSellItem] == "true"
@@ -771,7 +763,7 @@
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [trap_trigger_radius_+%] >= "1" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Jewels (Passsive Tree) v3.2
+//	Jewels (Passsive Tree)
 //--------------------------------------------------
 
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_jewel_nearby_passives_dex_to_int] >= "1" && [ForceSellItem] == "true"
@@ -782,7 +774,7 @@
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_jewel_nearby_passives_str_to_dex] >= "1" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Jewels (Potential) v3.2
+//	Jewels (Potential)
 //--------------------------------------------------
 
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [local_unique_jewel_blight_hinder_duration_+%_with_40_int_in_radius] >= "1" && [ForceSellItem] == "true"
@@ -816,7 +808,7 @@
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [local_unique_jewel_viper_strike_chance_to_gain_unholy_might_%_on_hit_per_poison_stack_on_enemy_with_50_dex_in_radius] >= "1" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Quivers v3.2
+//	Quivers
 //--------------------------------------------------
 
 [Type] == "Blunt Arrow Quiver" && [Rarity] == "Unique" # [ground_smoke_when_hit_%] == "25" && [ForceSellItem] == "true"
@@ -829,7 +821,7 @@
 [Type] == "Two-Point Arrow Quiver" && [Rarity] == "Unique" # [transfer_curses_to_X_nearby_enemies_on_kill] == "1" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Rings v3.2
+//	Rings
 //--------------------------------------------------
 
 // [Type] == "Coral Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -855,7 +847,7 @@
 //	Armours
 //=======================================================================
 //--------------------------------------------------
-//	Boots v3.2
+//	Boots
 //--------------------------------------------------
 
 [Type] == "Bronzescale Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -881,7 +873,7 @@
 [Type] == "Wool Shoes" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Chests v3.2
+//	Chests
 //--------------------------------------------------
 
 [Type] == "Astral Plate" && [Rarity] == "Unique" # [base_maximum_life] <= "68" && [ForceSellItem] == "true"
@@ -905,7 +897,7 @@
 [Type] == "Latticed Ringmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Ornate Ringmail" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Plate Vest" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Sadist Garb" && [Rarity] == "Unique" # [gain_x_es_on_trap_triggered_by_an_enemy] == "50" && [ForceSellItem] == "true"
+// [Type] == "Sadist Garb" && [Rarity] == "Unique" # [gain_x_es_on_trap_triggered_by_an_enemy] == "50" && [ForceSellItem] == "true"
 [Type] == "Sage's Robe" && [Rarity] == "Unique" # [light_radius_+%] == "25" && [ForceSellItem] == "true"
 [Type] == "Scholar's Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 [Type] == "Sentinel Jacket" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -917,7 +909,7 @@
 [Type] == "Zodiac Leather" && [Rarity] == "Unique" # [base_chance_to_dodge_spells_%] == "10" && [local_evasion_rating_+%] <= "209" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Gloves v3.2
+//	Gloves
 //--------------------------------------------------
 
 [Type] == "Arcanist Glvoes" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -948,7 +940,7 @@
 [Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Helmets v3.2
+//	Helmets
 //--------------------------------------------------
 
 [Type] == "Aventail Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -980,7 +972,7 @@
 [Type] == "Zealot Helmet" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Shields v3.2
+//	Shields
 //--------------------------------------------------
 
 [Type] == "Baroque Round Shield" && [Rarity] == "Unique" # [block_%_to_apply_to_spells_while_on_low_life] == "120" && [base_resist_all_elements_%] <= "19" && [ForceSellItem] == "true"
@@ -1040,7 +1032,7 @@
 //	Weapons
 //=======================================================================
 //--------------------------------------------------
-//	Bows v3.2
+//	Bows
 //--------------------------------------------------
 
 [Type] == "Assassin Bow" && [Rarity] == "Unique" # [base_physical_damage_%_to_convert_to_chaos] == "25" && [ForceSellItem] == "true"
@@ -1060,7 +1052,7 @@
 [Type] == "Spine Bow" && [Rarity] == "Unique" # [chaos_damage_can_shock] == "1" && [local_maximum_added_lightning_damage] <= "315" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Claws v3.2
+//	Claws
 //--------------------------------------------------
 
 [Type] == "Awl" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1075,7 +1067,7 @@
 [Type] == "Vaal Claw" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Daggers v3.2
+//	Daggers
 //--------------------------------------------------
 
 [Type] == "Ambusher" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1089,7 +1081,7 @@
 [Type] == "Stiletto" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	One Hand Axes v3.2
+//	One Hand Axes
 //--------------------------------------------------
 
 [Type] == "Cleaver" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1100,7 +1092,7 @@
 [Type] == "Vaal Axe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	One Hand Maces v3.2
+//	One Hand Maces
 //--------------------------------------------------
 
 [Type] == "Auric Mace" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1112,7 +1104,7 @@
 [Type] == "War Hammer" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	One Hand Swords v3.2
+//	One Hand Swords
 //--------------------------------------------------
 
 [Type] == "Corsair Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1128,7 +1120,7 @@
 [Type] == "War Sword" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Sceptres v3.2
+//	Sceptres
 //--------------------------------------------------
 
 [Type] == "Bronze Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1142,7 +1134,7 @@
 [Type] == "Void Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Staves v3.2
+//	Staves
 //--------------------------------------------------
 
 [Type] == "Coiled Staff" && [Rarity] == "Unique" # [base_aura_area_of_effect_+%] == "18" && [ForceSellItem] == "true"
@@ -1157,7 +1149,7 @@
 [Type] == "Vile Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Thrusting One Hand Swords V3.1.1d
+//	Thrusting One Hand Swords
 //--------------------------------------------------
 
 [Type] == "Antique Rapier" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1168,7 +1160,7 @@
 [Type] == "Whalebone Rapier" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Two Hand Axes V3.1.1d
+//	Two Hand Axes
 //--------------------------------------------------
 
 [Type] == "Despot Axe" && [Rarity] == "Unique" # [elemental_damage_+%_if_used_a_warcry_recently] == "150" && [local_maximum_added_cold_damage] <= "490" && [ForceSellItem] == "true"
@@ -1181,7 +1173,7 @@
 [Type] == "Woodsplitter" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Two Hand Maces V3.1.1d
+//	Two Hand Maces
 //--------------------------------------------------
 
 [Type] == "Brass Maul" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1192,7 +1184,7 @@
 [Type] == "Sledgehammer" && [Rarity] == "Unique" # [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Two Hand Swords v3.2
+//	Two Hand Swords
 //--------------------------------------------------
 
 [Type] == "Bastard Sword" && [Rarity] == "Unique" # [base_avoid_freeze_%] == "100" && [ForceSellItem] == "true"
@@ -1208,7 +1200,7 @@
 [Type] == "Tiger Sword" && [Rarity] == "Unique" # [add_frenzy_charge_on_critical_strike] == "1" && [local_critical_strike_chance_+%] <= "70" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
-//	Wands V3.1.1d
+//	Wands
 //--------------------------------------------------
 
 [Type] == "Carved Wand" && [Rarity] == "Unique" # [ForceSellItem] == "true"
@@ -1225,7 +1217,7 @@
 
 //============================================================================================================
 //
-//	League Only Items 3.1.1d
+//	League Only Items
 //
 //============================================================================================================
 //=======================================================================
