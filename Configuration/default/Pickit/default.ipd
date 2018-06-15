@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <002>
+//	Serial Number <003>
 //============================================================================================================
 //
 //	Currency
@@ -425,11 +425,7 @@
 //	Amulets
 //--------------------------------------------------
 
-[Category] == "Amulet" && [Rarity] == "Rare" # [StashItem] == "true"
-
-//--------------------------------------------------
-//	Amulets (Forcesell)
-//--------------------------------------------------
+[Category] == "Amulet" && [Rarity] == "Rare" # [stashUnid] == "true"
 
 //--------------------------------------------------
 //	Belts
@@ -490,7 +486,7 @@
 //	Rings
 //--------------------------------------------------
 
-[Category] == "Ring" && [Rarity] == "Rare" # [StashItem] == "true"
+[Category] == "Ring" && [Rarity] == "Rare" # [stashUnid] == "true"
 [Type] == "Breach Ring" && [Rarity] == "Rare" # [base_maximum_life] <= "69" && [ForceSellItem] == "true"
 [Type] == "Breach Ring" && [Rarity] == "Rare" # [TotalResistances] <= "79" && [ForceSellItem] == "true"
 [Type] == "Breach Ring" && [Rarity] == "Rare" # [base_cold_damage_resistance_%] >= "1" && [base_cold_damage_resistance_%] <= "19" && [ForceSellItem] == "true"
