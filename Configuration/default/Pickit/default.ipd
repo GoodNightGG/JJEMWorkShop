@@ -1,5 +1,5 @@
 //============================================================================================================
-//	Serial Number <004>
+//	Serial Number <005>
 //============================================================================================================
 //
 //	Currency
@@ -986,7 +986,7 @@
 [Type] == "Painted Buckler" && [Rarity] == "Unique" # [base_maximum_cold_damage_resistance_%] == "5" && [physical_damage_%_to_add_as_cold] >= "10" && [physical_damage_%_to_add_as_cold] <= "15" && [ForceSellItem] == "true"
 [Type] == "Painted Tower Shield" && [Rarity] == "Unique" # [base_maximum_life] <= "58" && [ForceSellItem] == "true"
 [Type] == "Painted Tower Shield" && [Rarity] == "Unique" # [local_physical_damage_reduction_rating_+%] <= "95" && [ForceSellItem] == "true"
-[Type] == "Pine Buckler" && [Rarity] == "Unique" # [additional_block_%] == "5" && [life_leech_from_physical_attack_damage_permyriad] == "6" && [ForceSellItem] == "true"
+[Type] == "Pine Buckler" && [Rarity] == "Unique" # [additional_block_%] == "5" && [base_lightning_damage_resistance_%] == "30" && [ForceSellItem] == "true"
 [Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [base_stun_recovery_+%] == "20" && [base_maximum_life] <= "177" && [ForceSellItem] == "true"
 [Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [base_stun_recovery_+%] == "20" && [local_physical_damage_reduction_rating_+%] <= "245" && [ForceSellItem] == "true"
 [Type] == "Plank Kite Shield" && [Rarity] == "Unique" # [life_regeneration_rate_per_minute_%_when_on_low_life] == "180" && [ForceSellItem] == "true"
@@ -1112,15 +1112,17 @@
 //	Sceptres
 //--------------------------------------------------
 
-[Type] == "Bronze Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Carnal Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Bronze Sceptre" && [Rarity] == "Unique" # [spell_minimum_added_fire_damage] >= "2" && [spell_minimum_added_cold_damage] >= "2" [spell_minimum_added_lightning_damage] >= "1" && [ForceSellItem] == "true"
+[Type] == "Carnal Sceptre" && [Rarity] == "Unique" # [chaos_skill_effect_duration_+%] == "40" && [ForceSellItem] == "true"
 [Type] == "Crystal Sceptre" && [Rarity] == "Unique" # [local_socketed_fire_gem_level_+] == "2" && [ForceSellItem] == "true"
 [Type] == "Crystal Sceptre" && [Rarity] == "Unique" # [local_socketed_gem_level_+] == "1" && [ForceSellItem] == "true"
-[Type] == "Iron Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Grinning Fetish" && [Rarity] == "Unique" # [minion_damage_+%] >= "30" && [ForceSellItem] == "true"
+[Type] == "Iron Sceptre" && [Rarity] == "Unique" # [damage_+%_vs_frozen_enemies] == "40" [ForceSellItem] == "true"
 [Type] == "Opal Sceptre" && [Rarity] == "Unique" # [local_display_grants_skill_scorching_ray_level] == "25" && [ForceSellItem] == "true"
-// [Type] == "Platinum Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Shadow Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Void Sceptre" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Platinum Sceptre" && [Rarity] == "Unique" # [base_mana_cost_-%] >= "6" && [spell_minimum_added_lightning_damage] >= "30" && [ForceSellItem] == "true"
+[Type] == "Shadow Sceptre" && [Rarity] == "Unique" # [cannot_be_blinded] == "1" && [ForceSellItem] == "true"
+[Type] == "Shadow Sceptre" && [Rarity] == "Unique" # [local_display_socketed_gems_get_reduced_mana_cost_level] == "1" && [ForceSellItem] == "true"
+[Type] == "Void Sceptre" && [Rarity] == "Unique" # [zombie_scale_+%] == "25" && [ForceSellItem] == "true"
 
 //--------------------------------------------------
 //	Staves
@@ -1152,14 +1154,14 @@
 //	Two Hand Axes
 //--------------------------------------------------
 
-[Type] == "Despot Axe" && [Rarity] == "Unique" # [elemental_damage_+%_if_used_a_warcry_recently] == "150" && [local_maximum_added_cold_damage] <= "490" && [ForceSellItem] == "true"
-[Type] == "Despot Axe" && [Rarity] == "Unique" # [elemental_damage_+%_if_used_a_warcry_recently] == "150" && [local_minimum_added_cold_damage] <= "340" && [ForceSellItem] == "true"
-[Type] == "Headsman Axe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Ezomyte Axe" && [Rarity] == "Unique" # [add_frenzy_charge_every_50_rampage_stacks] == "1" && [area_of_effect_+%_per_25_rampage_stacks] == "2" && [ForceSellItem] == "true"
+[Type] == "Despot Axe" && [Rarity] == "Unique" # [elemental_damage_+%_if_used_a_warcry_recently] == "150" && [ForceSellItem] == "true"
+[Type] == "Headsman Axe" && [Rarity] == "Unique" # [base_maximum_life] == "100" && [ForceSellItem] == "true"
 [Type] == "Karui Chopper" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Poleaxe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Shadow Axe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Sundering Axe" && [Rarity] == "Unique" # [ForceSellItem] == "true"
-[Type] == "Woodsplitter" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Poleaxe" && [Rarity] == "Unique" # [local_display_socketed_gems_get_increased_area_level] == "20" && [ForceSellItem] == "true"
+[Type] == "Shadow Axe" && [Rarity] == "Unique" # [movement_velocity_+%_when_on_full_life] == "15" && [ForceSellItem] == "true"
+[Type] == "Sundering Axe" && [Rarity] == "Unique" # [local_unique_counts_as_dual_wielding] == "1" && [ForceSellItem] == "true"
+[Type] == "Woodsplitter" && [Rarity] == "Unique" # [local_socketed_strength_gem_level_+] == "1" && [physical_damage_%_to_add_as_fire] != "70" [ForceSellItem] == "true"
 
 //--------------------------------------------------
 //	Two Hand Maces
